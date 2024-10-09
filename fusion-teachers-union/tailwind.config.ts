@@ -11,6 +11,8 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        lightgray: "hsl(220, 14.3%, 95%)",
+        white: '#ffffff',
       },
     },
       colors: {
