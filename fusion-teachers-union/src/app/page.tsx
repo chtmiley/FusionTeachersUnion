@@ -56,7 +56,7 @@ export default function Home() {
       </header>
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-primary">
-          <div className="container px-4 md:px-6">
+          <div className="px-6 md:px-8">
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none text-white">
@@ -87,7 +87,7 @@ export default function Home() {
           </div>
         </section>
         <section id="for-parents" className="w-full py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
+          <div className="px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">For Parents</h2>
             <div className="grid gap-10 sm:grid-cols-2 md:gap-16 lg:grid-cols-3 mt-8">
               <div className="flex flex-col items-center space-y-4 text-center">
