@@ -1,0 +1,14 @@
+christianmiley@Big-Floppa FusionTeachersUnion % git branch -M main
+christianmiley@Big-Floppa FusionTeachersUnion % git remote add origin https://github.com/chtmiley/FusionTeachersUnion.git
+christianmiley@Big-Floppa FusionTeachersUnion % git push -u origin main
+Enumerating objects: 24, done.
+Counting objects: 100% (24/24), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (22/22), done.
+Writing objects: 100% (24/24), 187.82 KiB | 4.94 MiB/s, done.
+Total 24 (delta 0), reused 0 (delta 0)
+To https://github.com/chtmiley/FusionTeachersUnion.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+christianmiley@Big-Floppa FusionTeachersUnion % 
+
