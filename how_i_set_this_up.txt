@@ -12,3 +12,4 @@ To https://github.com/chtmiley/FusionTeachersUnion.git
 Branch 'main' set up to track remote branch 'main' from 'origin'.
 christianmiley@Big-Floppa FusionTeachersUnion % 
 
+npx shadcn@latest add "https://v0.dev/chat/b/b_4m5aa6276qB?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..ChxV3j-ewZD497hg.VMBDwuWoHk_l-ck8B8J8mueAr4-QCZghE31LONblTK_DpG_-01LzE6WuV7s.wfRe9oiuEAOCTvnz_7AU0w"
