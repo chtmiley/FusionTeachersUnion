@@ -47,7 +47,7 @@ export default function Home() {
               <span className="sr-only">Toggle menu</span>
             </Button>
           </SheetTrigger>
-          <SheetContent side="right">
+          <SheetContent side="right" className="bg-white dark:bg-black dark:text-white">
             <nav className="flex flex-col gap-4">
               <NavItems />
             </nav>
@@ -62,7 +62,7 @@ export default function Home() {
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none text-white">
                   Welcome to Fusion Academy Teachers Union
                 </h1>
-                <p className="mx-auto max-w-[700px] text-gray-200 md:text-xl">
+                <p className="mx-auto max-w-[700px] text-gray-200 md:text-xl text-white">
                   Supporting excellence in education at Fusion Academies in New York City
                 </p>
               </div>
