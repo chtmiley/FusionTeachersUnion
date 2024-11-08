@@ -1,8 +1,7 @@
 import Link from "next/link"
-import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { GraduationCap, ChevronLeft, Mail, Phone, FileText, Link as LinkIcon } from "lucide-react"
+import { GraduationCap, ChevronLeft, FileText, Link as LinkIcon } from "lucide-react"
 
 export default function Union() {
   const unionLeaders = [
