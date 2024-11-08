@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { GraduationCap, ChevronLeft, FileText, Link as LinkIcon } from "lucide-react"
+import { GraduationCap, ChevronLeft, FileText, Handshake, Link as LinkIcon } from "lucide-react"
 
 export default function Union() {
   const unionLeaders = [
@@ -89,6 +89,16 @@ export default function Union() {
                 </Card>
               ))}
             </div>
+          </section>
+          <section>
+            <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl mb-6">United Federation of Teachers (UFT)</h2>
+                <a href="https://www.uft.org/" className="flex flex-row">
+                    <Handshake className="mx-4"/><span>UFT Website</span>
+                </a>
+                <br />
+                <a href="https://www.uft.org/your-union/about-uft" className="flex flex-row">
+                    <Handshake className="mx-4"/><span>About the UFT</span>
+                </a>
           </section>
         </div>
       </main>

@@ -3,9 +3,9 @@
 import React, { useState } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
+//import { Input } from "@/components/ui/input"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
-import { GraduationCap, Users, BookOpen, Mail, Phone, Menu } from "lucide-react"
+import { GraduationCap, Users, BookOpen, Mail, /*Phone,*/ Menu, Instagram } from "lucide-react"
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false)
@@ -142,7 +142,26 @@ export default function Home() {
         <section id="contact" className="w-full py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Contact Us</h2>
-            <div className="grid gap-10 sm:grid-cols-2 md:gap-16 mt-8">
+            <div className="mt-6">
+              <div className="space-y-4">
+                  <p className="text-gray-500">
+                    Have questions or want to get involved?
+                  </p>
+                  <div className="flex items-center space-x-2">
+                    <Instagram className="h-4 w-4" />
+                    <span>Instagram: @FusionTeacherUnion </span>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <Mail className="h-4 w-4" />
+                    <span>UWS: uwsfusionunion@gmail.com</span>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <Mail className="h-4 w-4" />
+                    <span>Brooklyn: unionfusionbrooklyn@gmail.com</span>
+                  </div>
+                </div>
+            </div>
+            {/*<div className="grid gap-10 sm:grid-cols-2 md:gap-16 mt-8">
               <div className="space-y-4">
                 <p className="text-gray-500">
                   Have questions or want to get involved? Reach out to us using the contact information below or fill
@@ -167,7 +186,7 @@ export default function Home() {
                 />
                 <Button type="submit">Send Message</Button>
               </form>
-            </div>
+            </div>*/}
           </div>
         </section>
       </main>
