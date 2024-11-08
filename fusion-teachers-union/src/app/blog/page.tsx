@@ -29,7 +29,7 @@ export default function Blog() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <header className="px-4 lg:px-6 h-14 flex items-center">
+      <header className="px-4 lg:px-6 h-14 flex items-center dark:bg-black dark:text-white dark:border-b-2 dark:border-white sticky top-0">
         <Link className="flex items-center justify-center" href="/">
           <GraduationCap className="h-6 w-6 mr-2" />
           <span className="font-bold">Fusion Academy Teachers Union</span>

@@ -32,7 +32,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <header className="px-4 lg:px-6 h-14 flex items-center">
+      <header className="px-4 lg:px-6 h-14 flex items-center bg-white dark:bg-black dark:text-white dark:border-b-2 dark:border-white sticky top-0">
         <Link className="flex items-center justify-center" href="#">
           <GraduationCap className="h-6 w-6 mr-2" />
           <span className="font-bold">Fusion Academy Teachers Union</span>
@@ -66,30 +66,38 @@ export default function Home() {
                   Supporting excellence in education at Fusion Academies in New York City
                 </p>
               </div>
-              <div className="space-x-4">
+              <div>
+                <Button asChild className="mt-4 border-2 border-white hover:bg-white hover:text-black hover:dark:bg-black hover:dark:text-white">
+                  <Link href="/mission">Mission Statement</Link>
+                </Button>
+              </div>
+              {/*<div className="space-x-4">
                 <Button asChild className="border-2 border-white">
                   <Link href="#for-parents">For Parents</Link>
                 </Button>
                 <Button asChild variant="outline" className="bg-white">
                   <Link href="#for-teachers">For Teachers</Link>
                 </Button>
-              </div>
+              </div>*/}
             </div>
           </div>
         </section>
         <section id="about" className="w-full py-12 md:py-24 lg:py-32 bg-lightgray">
           <div className="container px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About Us</h2>
-            <p className="mt-4 max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <p className="my-4 max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               The Fusion Academy Teachers Union is dedicated to supporting and empowering our educators, ensuring the highest
               quality education for your children at Fusion Academies in Brooklyn and on the Upper West Side.
             </p>
+            <Button asChild size="lg" className="hover:bg-lightgray hover:text-black border-2 hover:border-black">
+              <Link href="/about">Learn More</Link>
+            </Button>
           </div>
         </section>
         <section id="for-parents" className="w-full py-12 md:py-24 lg:py-32">
           <div className="px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">For Parents</h2>
-            <div className="grid gap-10 sm:grid-cols-2 md:gap-16 lg:grid-cols-3 mt-8">
+            <div className="grid gap-10 sm:grid-cols-2 md:gap-16 lg:grid-cols-3 my-8">
               <div className="flex flex-col items-center space-y-4 text-center">
                 <Users className="h-12 w-12 text-primary" />
                 <h3 className="text-xl font-bold">Committed Educators</h3>
@@ -112,6 +120,9 @@ export default function Home() {
                 </p>
               </div>
             </div>
+            <Button asChild size="lg" className="hover:bg-lightgray hover:text-black border-2 hover:border-black">
+              <Link href="/parent-petition">Sign the Parent Petition</Link>
+            </Button>
           </div>
         </section>
         <section id="for-teachers" className="w-full py-12 md:py-24 lg:py-32 bg-lightgray">
@@ -123,7 +134,7 @@ export default function Home() {
             </p>
             <div className="mt-8">
               <Button asChild>
-                <Link href="#contact">Join the Union</Link>
+                <Link href="/union">Union Resources</Link>
               </Button>
             </div>
           </div>
